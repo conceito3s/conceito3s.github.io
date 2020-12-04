@@ -50,35 +50,10 @@ table {
 /* FIM RESET */
 
 body {
-    background-color: #ffe0ce;
+    background-color: #fff;
 }
 .head {
 	margin: 0;
-}
-.space {
-	background-color: #fff;
-	height: 30px;
-	width: 100%;
-	border-radius: 0 0 20px 20px;
-}
-.date {
-	background-color: #ffe0ce;
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-}
-.clockImage {
-	width: 30%;
-	float: left;
-}
-.horario {
-	width: 68%;
-	float: right;
-	height: auto;
-	display: flex;
-	align-items: center;
 }
 p {
 	font-family: 'Montserrat', sans-serif;
@@ -86,43 +61,30 @@ p {
 	font-size: 16px;
 	font-size: 5vmin;
 }
-.map {
-	background-color: #ffe0ce;
+.logos {
+	background-color: #ffd27c;
 	margin: 20px 0 0 0;
 	overflow: hidden;
 	padding: 15px 0;
 }
-.mapTitle {
+.logosTitle {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 10px;
 }
-.social {
-	background-color: #ffe0ce;
-	margin: 20px 0 0 0;
-	overflow: hidden;
-	padding: 15px 0;
-	display: block;
-	justify-content: center;
-}
-.socialLink {
-	width: 100%;
+.logosContent {
 	text-align: center;
-}
-.socialTitle > p {
-	text-align: center;
-}
-.socialTitle {
-	width: 100%;
-	display: flex;
 	align-items: center;
-	justify-content: center;
-	margin-bottom: 10px;
+}
+.logosContent > p {
+	font-size: 12px;
+	font-size: 3vmin;
+	text-align: center;
 }
 .footer {
-	background-color: #ffe0ce;
+	background-color: #ffd27c;
 	margin: 20px 0 0 0;
 	overflow: hidden;
 	padding: 15px 0;
@@ -130,7 +92,7 @@ p {
 	align-items: center;
 	justify-content: center;
 }
-.footer > p{
+.footer > p {
 	font-size: 12px;
 	font-size: 3vmin;
 	text-align: center;
