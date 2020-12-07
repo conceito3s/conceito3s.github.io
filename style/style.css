@@ -48,40 +48,79 @@ table {
 }
 
 /* FIM RESET */
-
+html {
+	scroll-behavior: smooth;
+}
 body {
     background-color: #fff;
 }
 .head {
 	margin: 0;
+	text-align: center;
 }
-p {
+p, div {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	font-size: 5vmin;
 }
-.logos {
+.lines {
+	width: 100%;
 	background-color: #ffd27c;
-	margin: 20px 0 0 0;
+	margin: 20px 0 4px;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.fline {
+	height: 5px;
+}
+.sline {
+	height: 10px;
+}
+.tline {
+	height: 20px;
+}
+.buttonLink {
+	text-align: center;
+}
+.buttonLink > a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	font-size: 5vmin;
+	text-decoration: none;
+}
+.btnDown {
+	margin: 0 auto;
+	background-color: #ffd27c;
+	padding: 30px 30px 10px;
+	border-radius: 0.5rem;
+	text-align: center;
+	color: #464427;
+}
+.logos, .paginas {
+	background-color: #ffd27c;
+	margin: 18px 0 0 0;
 	overflow: hidden;
 	padding: 15px 0;
+	padding-bottom: 5%;
 }
-.logosTitle {
+.logosTitle, .paginasTitle {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 10px;
+	color: #464427;
 }
-.logosContent {
+.logosContent, .paginasContent {
 	text-align: center;
 	align-items: center;
 }
-.logosContent > p {
+.logosContent > p, .paginasContent > p {
 	font-size: 12px;
 	font-size: 3vmin;
 	text-align: center;
+	font-style: italic;
 }
 .footer {
 	background-color: #ffd27c;

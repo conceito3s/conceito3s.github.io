@@ -5,22 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Conceito 3S - Logos & Web Design</title>
-    <script src="style/style.css"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css" type="text/css">
+    <link rel="stylesheet" href="style/slide.css" type="text/css">
+    <script src="js/slide.js"></script>
 </head>
 <body>
     <div class="head">
+        <div class="lines fline"></div>
+        <div class="lines sline"></div>
+        <div class="lines tline"></div>
         <img src="logo.jpeg" width="100%" />
+        <div class="lines tline"></div>
+        <div class="lines sline"></div>
+        <div class="lines fline"></div>
     </div>
-    <div class="logos">
+    <div class="buttonLink">
+        <a href="#logos" class="btnDown"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg></a>
+    </div>
+    <div class="logos" id="logos">
         <div class="logosTitle">
-            <p>LOGOS</p>
+            <p>LOGOS <svg width="1em" height="1em" viewBox="0 -2 16 16" class="bi bi-card-image" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              </svg></p>
         </div>
         <div class="logosContent">
-            <img src="slideshow1.jpeg" width="80%" />
-            <p>Renata Sobrancelhas | <a href="https://www.instagram.com/conceito3s/">@renatasobrancelhas</a></p>
+            <div class="mySlides fade">
+                <img src="slideshow1.jpeg" width="80%" />
+                <div class="text">"Renata Sobrancelhas - <a href="https://www.instagram.com/renatta.sobrancelhas/">@renatta.sobrancelhas</a>"</div>
+            </div>
+            <div class="mySlides fade" style="display: none;">
+                <img src="slideshow2.png" width="80%" />
+                <div class="text">"Conceito 3S - <a href="https://www.instagram.com/conceito3s/">@conceito3s</a>"</div>
+            </div>
+            <div class="mySlides fade"style="display: none;">
+                <img src="slideshow1.jpeg" width="80%" />
+                <div class="text">"Renata Sobrancelhas - <a href="https://www.instagram.com/renatta.sobrancelhas/">@renatta.sobrancelhas</a>"</div>
+            </div>
+            <div class="slideControl">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
         </div>
+    </div>
+    <div class="buttonLink">
+        <a href="#paginas" class="btnDown"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg></a>
+    </div>
+    <div class="paginas" id="paginas">
+        <div class="paginasTitle">
+            <p>PÁGINAS<svg width="1em" height="1em" viewBox="0 -2 16 16" class="bi bi-link-45deg" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.715 6.542L3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.001 1.001 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 0 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 0 0-4.243-4.243L6.586 4.672z"/>
+              </svg></p>
+        </div>
+        <div class="paginasContent">
+            <img src="slideshow1.jpeg" width="80%" />
+            <p>"Renata Sobrancelhas | <a href="https://www.instagram.com/renatta.sobrancelhas/">@renatta.sobrancelhas</a>"</p>
+        </div>
+    </div>
+    <div class="buttonLink">
+        <a href="#" class="btnDown">INÍCIO</a>
     </div>
     <div class="footer">
         <p>Conceito 3S - Logos & Web Design<br />
