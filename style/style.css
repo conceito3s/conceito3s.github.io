@@ -72,6 +72,10 @@ p, div {
 .fline {
 	height: 5px;
 }
+.fline:first-child {
+	height: 25px;
+	margin: 0;
+}
 .sline {
 	height: 10px;
 }
