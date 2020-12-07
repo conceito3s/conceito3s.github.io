@@ -61,14 +61,13 @@ body {
 p, div {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 16px;
 	font-size: 5vmin;
 }
 .lines {
 	width: 100%;
 	background-color: #ffd27c;
-	margin: 20px 0 4px;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin: 20px 0 0;
+	transition: color;
 }
 .fline {
 	height: 5px;
@@ -79,7 +78,15 @@ p, div {
 .tline {
 	height: 20px;
 }
+.descrip {
+	padding: 10px 0;
+}
+.descrip > p {
+	font-size: 4.5vmin;
+	line-height: 200%;
+}
 .buttonLink {
+	display: flex;
 	text-align: center;
 }
 .buttonLink > a {
@@ -92,8 +99,8 @@ p, div {
 .btnDown {
 	margin: 0 auto;
 	background-color: #ffd27c;
-	padding: 30px 30px 10px;
-	border-radius: 0.5rem;
+	padding: 10px 30px;
+	border-radius: 0 0 0.5rem 0.5rem;
 	text-align: center;
 	color: #464427;
 }
