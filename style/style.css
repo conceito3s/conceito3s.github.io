@@ -51,6 +51,10 @@ table {
 html {
 	scroll-behavior: smooth;
 }
+img {
+	max-width: 100%;
+	height: auto;
+}
 body {
     background-color: #fff;
 }
@@ -131,14 +135,32 @@ p, div {
 	align-items: center;
 }
 .sectionsContent > p {
-	font-size: 3vmin;
+	font-size: 3.5vmin;
 	text-align: center;
 	font-style: italic;
+}
+p > a {
+	text-decoration: none;
 }
 .sectionsContent > .servicosDesc {
 	font-size: 4vmin;
 	font-style: normal;
 	line-height: 200%;
+}
+.sectionsContent > img {
+	width: 80%;
+}
+.mySlides > img {
+	width: 80%;
+}
+.text {
+	font-size: 12px;
+	font-size: 3.5vmin;
+	text-align: center;
+	font-style: italic;
+}
+.text > a {
+	text-decoration: none;
 }
 .socialMediaBtn {
 	cursor: pointer;
@@ -168,7 +190,52 @@ p, div {
 	justify-content: center;
 }
 .footer > p {
-	font-size: 12px;
 	font-size: 3.5vmin;
 	text-align: center;
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (min-width: 500px) {
+	.descrip > p {
+		font-size: 23px;
+	}
+	.buttonLink > a {
+		font-size: 22px;
+	}
+	p, div {
+		font-size: 28px;
+	}
+	.text {
+		font-size: 18px;
+	}
+	.sectionsContent > p {
+		font-size: 18px;
+	}
+	.sectionsContent > .servicosDesc {
+		font-size: 23px;
+	}
+	.footer > p {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.socialMediaBtn {
+		width: 250px;
+		height: 75px;
+		padding: 15px;
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.imgBack > img {
+		width: 768px;
+	}
+	.mySlides > img {
+		width: 615px;
+	}
+	.sectionsContent > img {
+		width: 615px;
+	}
 }
