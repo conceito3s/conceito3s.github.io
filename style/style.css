@@ -116,6 +116,7 @@ p, div {
 }
 .sections {
 	background-color: #ffd27c;
+	background: linear-gradient(-45deg, #ffd27c 0%, #ffd27c 57%, transparent 57%), linear-gradient(25deg, #ffd27c 0%, #ffd27c 57%, #ffbe3b 57%);
 	margin: 18px 0 0 0;
 	overflow: hidden;
 	padding: 15px 0;
