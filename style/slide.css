@@ -9,7 +9,12 @@
     font-size: 5vmin;
     transition: 0.6s ease;
     border-radius: 5px;
-    border: solid;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.20), 0 2px 10px 0 rgba(0,0,0,0.20);
+  }
+
+  .next {
+    margin-left: 20px;
   }
 
   .slideControl {

@@ -129,6 +129,8 @@ p, div {
 	justify-content: center;
 	margin-bottom: 10px;
 	color: #464427;
+	text-align: center;
+	line-height: 150%;
 }
 .sectionsContent {
 	text-align: center;
