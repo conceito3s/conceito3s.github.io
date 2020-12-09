@@ -141,6 +141,7 @@ p, div {
 	font-size: 3.5vmin;
 	text-align: center;
 	font-style: italic;
+	margin-top: 2vmin;
 }
 p > a {
 	text-decoration: none;
@@ -152,15 +153,19 @@ p > a {
 }
 .sectionsContent > img {
 	width: 80%;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.16), 0 6px 10px 0 rgba(0,0,0,0.16);
 }
 .mySlides > img {
 	width: 80%;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.16), 0 6px 10px 0 rgba(0,0,0,0.16);
+	background: #ffd27c;
 }
 .text {
 	font-size: 12px;
 	font-size: 3.5vmin;
 	text-align: center;
 	font-style: italic;
+	margin-top: 2vmin;
 }
 .text > a {
 	text-decoration: none;
